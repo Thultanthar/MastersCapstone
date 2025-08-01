@@ -36,9 +36,7 @@
      Finally select OK, OK
 16 On your VM type: sudo mkdir /git
 17. If you run into issues with the mount do the following
-     sudo dnf install -y epel-release
-     sudo dnf install -y dkms elfutils-libelf-devel
-     Insert the media once more and attempt to rerun the vboxtools installer.
-      mount /dev/cdrom /mnt
-      cd /mnt
-      sudo ./VBoxLinuxAdditions.run
+     Map to a location other than the user folder.
+18. Navigate to the git folder using git bash on the host system.
+19. Run a git clone "<this repo's url>"
+20. 
